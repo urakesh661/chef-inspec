@@ -1,0 +1,10 @@
+name: inspec-workshop
+title: CIS CentOS 6 InSpec Workshop
+maintainer: Rakesh Kirola
+copyright: Rakesh Kirola
+copyright_email: rakesh.testengr@gmail.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 1.0.0
+supports:
+  platform: CentOS
