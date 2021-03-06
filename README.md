@@ -1,1 +1,1 @@
-# chef-inspec
+# inspec
