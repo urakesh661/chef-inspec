@@ -2,6 +2,8 @@ control "nginx-server" do
   impact 1.0                                
   title "Verify the configuration of nginx server."
   desc "Verify the configuration of nginx server on centos machine by executing below tests."
+  
+  only_if { os[:family] != 'ubuntu' }
 
   describe package('nginx') do
     it { should be_installed }
